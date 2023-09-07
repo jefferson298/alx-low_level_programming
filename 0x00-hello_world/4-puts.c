@@ -3,13 +3,15 @@
  * main - Entry point of the program
  *
  * Description:
- * This program prints the message "Programming is like building a multilingual puzzle,"
- * followed by a newline character, using the `puts` function. It then returns 0 to indicate success.
+ * prints "Programming is like building a multilingual puzzle,"
+ *  using the `puts` function. It then returns 0 to indicate success.
  *
- * Return: 0 for success
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-    puts("Programming is like building a multilingual puzzle,");
-    return (0);
+/* Use the puts function to print the message */
+puts("Programming is like building a multilingual puzzle,");
+/* Return 0 to indicate success */
+return (0);
 }
