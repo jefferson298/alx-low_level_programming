@@ -12,8 +12,6 @@ int main(void)
 {
 /* Use the puts function to print the message */
 puts("\"Programming is like building a multilingual puzzle\n");
-/* Use fprintf to print to stderr */
-    fprintf(stderr, "[stderr]: [Anything]\n");
 /* Return 0 to indicate success */
 return (0);
 }
