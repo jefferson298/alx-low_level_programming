@@ -4,7 +4,7 @@
  *
  * Description:
  * This program prints the message "but the outcome is a piece of art,"
- * Return is always : (0)
+ * Return: 0 (success)
  */
 int main(void)
 {
