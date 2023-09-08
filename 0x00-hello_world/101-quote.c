@@ -1,11 +1,11 @@
 #include <unistd.h>
-
 /**
  * main
  *
  * Description:
- * This program writes the message "and that piece of art is useful" - Dora Korpar, 2015-10-19
- * continued immediately by a newline character to the standard error (stderr). It then returns 1.
+ * Writes the message
+ * "and that piece of art is useful" - Dora Korpar, 2015-10-19
+ * continued by a newline to the standard error (stderr) and returns 1.
  *
  * Return: 1 (indicating execution)
  */
@@ -18,4 +18,3 @@ return (1);
 else
 return (0);
 }
-
