@@ -9,8 +9,7 @@ int main(void)
 {
 	char alph = 'a';
 
-	while
-		(alph <= 'z');
+	while (alph <= 'z')
 	{
 		if (alph != 'q' && alph != 'e')
 		{
