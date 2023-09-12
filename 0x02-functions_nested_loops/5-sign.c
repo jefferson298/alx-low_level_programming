@@ -11,6 +11,7 @@ int print_sign(int n)
 {
 	int neg = -1;
 	char chr = (char) neg;
+
 	if (n > 0)
 	{
 		_putchar('+');
