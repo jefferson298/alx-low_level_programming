@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print _last_digit - prints the last digit
+ * print_last_digit - prints the last digit
  *
  * @b: Integer output
  * Description: Prints using _putchar
