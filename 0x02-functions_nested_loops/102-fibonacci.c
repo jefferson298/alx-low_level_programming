@@ -9,24 +9,23 @@
  */
 int main(void)
 {
-int n = 50;
-unsigned long long int first = 1;
-unsigned long long int second = 2;
+	int n;
+	long int fibonacci[50];
 
-printf("%llu, %llu, ", first, second);
-for (int i = 3; i <= n; i++)
-{
-unsigned long long int next = first + second;
-if (i < n)
-{
-printf("%llu, ", next);
-}
-else
-{
-printf("%llu\n", next);
-}
-first = second;
-second = next;
-}
-return (0);
+	fibonacci[0] = 1;
+	fibonacci[1] = 2;
+	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
+	for (n = 2; n < 50; n++)
+	{
+		fibonacci[n] = fibonacci[n - 1] + fibonacci[n - 2];
+		if (n == 49)
+		{
+			printf("%ld\n", fibonacci[n]);
+		}
+		else
+		{
+			printf("%ld, ", fibonacci[n]);
+		}
+	}
+	return (0);
 }
