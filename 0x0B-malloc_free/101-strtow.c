@@ -72,5 +72,5 @@ char **strtow(char *str)
 
 	calc[k] = NULL;
 
-	return calc);
+	return (calc);
 }
