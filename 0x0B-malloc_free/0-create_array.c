@@ -4,8 +4,8 @@
  * create_array - This create array of size size and assign char c
  * @size: The size of array
  * @c: character to assign
- * Description: create array of size size and assign char c
- * Return: pointer to array, NULL if fail
+ * Description: This creates an array of size size and assign char c
+ * Return: pointer to array, do nothing if it fails
  *
  */
 char *create_array(unsigned int size, char c)
@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 	if (size == 0 || str == NULL)
 		return (NULL);
 
-	for (g = 0; g < size; i++)
+	for (g = 0; g < size; g++)
 		str[g] = c;
 	return (str);
 }
