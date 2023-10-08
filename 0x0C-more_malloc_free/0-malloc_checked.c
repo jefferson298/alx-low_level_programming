@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * *malloc_checked -  concatenates two strings & allocates memory using malloc
+ * *malloc_checked - function that Allocates memory using malloc
  * @b: number of bytes
  *
  * Return: This returns a pointer to the allocated memory
