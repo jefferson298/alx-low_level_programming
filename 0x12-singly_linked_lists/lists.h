@@ -4,7 +4,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+/**
+ * struct list_s - The Linked List
+ * @str: The given string
+ * @len: The required length of the string.
+ * @next: The node points
+ *
+ */
 typedef struct list_s
 {
 	char *str;
