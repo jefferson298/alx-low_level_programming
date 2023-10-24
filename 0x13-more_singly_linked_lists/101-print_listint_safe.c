@@ -24,7 +24,7 @@ return (0);
 game = head->next;
 pad = (head->next)->next;
 
-while (hare)
+while (pad)
 {
 if (game == pad)
 {
