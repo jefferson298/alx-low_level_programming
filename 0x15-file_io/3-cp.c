@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 	got = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
-		if (pro == -1 || r == -1)
+		if (pro == -1 || z == -1)
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't read from file %s\n", argv[1]);
